@@ -21,7 +21,11 @@ header {background-color: #ffff;
         box-shadow: 0 2px 2px #3a3a3a;
 }
 
-h1 {font-family: 'Oswald', sans-serif;}
+header a {color: inherit;}
+
+h1 {font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 1px; color: #3a3a;}
+
+menu {font-size: 100%; letter-spacing: 4px; list-style-type: none;}
 
         /* Main Content */
 main {background-color: lightblue; flex: 1 0 auto;}
