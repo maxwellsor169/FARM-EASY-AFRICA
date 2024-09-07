@@ -21,11 +21,15 @@ header {background-color: #ffff;
         box-shadow: 0 2px 2px #3a3a3a;
 }
 
-header a {color: inherit;}
+header a {color: inherit; text-decoration: none;}
 
 h1 {font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 1px; color: #3a3a;}
 
-menu {font-size: 100%; letter-spacing: 4px; list-style-type: none;}
+content {font-size: 100%; letter-spacing: 4px; list-style-type: none;}
+
+content > li {margin-bottom: 1em;}
+
+.live {border-bottom: 1px solid #3a3a3a;}
 
         /* Main Content */
 main {background-color: lightblue; flex: 1 0 auto;}
