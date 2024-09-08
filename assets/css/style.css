@@ -72,5 +72,11 @@ nav {display: block;
 }
 #cotent {display: flex;}
 #content > li {padding-left: 1rem;}
+
+.nav-toogle-label {display: none;}
+
+#logo {font-size: 280%; line-break: 75px; margin: 0 0.5rem;}
+
+main {margin-top: 79px;}
         
 }
