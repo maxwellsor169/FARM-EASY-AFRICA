@@ -104,11 +104,11 @@ main {
 /* Purpose Section */
 
 #purpose {width: 90%; margin: 20px auto;}
-#purpose h2 {font-size: 200%; text-align: center; margin-top: 20px;}
+#purpose h2 {font-size: 200%; text-align: center; margin-top: 20px; margin-bottom: 20px;}
 
 /* Ideas Section */
 
-#mission > h4, #services {line-height: 20px; margin-bottom: 20px; margin-top: 10px;}
+#mission > h4, #services  {line-height: 20px; margin-bottom: 20px; margin-top: 10px;}
 
 #ideas p, #ideas ul {padding: 0 20px;}
 hr {border-top: 1px solid #3a3a3a; margin: 5px 0;}
@@ -215,4 +215,13 @@ footer {
 /* Larger devices (desktops and larger screens, 1200px and up) */
 @media screen and (min-width: 1200px) {
         #palnter {height: 800px;}
+
+        #ideas {display: flex; flex-direction: row;}
+        #ideas > div {flex: 1;}
+        #services > div {align-self: flex-start;}
+        #purpose-image {order: 0;}
+        #services {order: 1;}
+        #mission > div {align-self: flex-end;}
+
+
 }
