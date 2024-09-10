@@ -114,9 +114,20 @@ main {
 hr {border-top: 1px solid #3a3a3a; margin: 5px 0;}
 
 
+/* Purpose image */
+#square-cover-bg {background: url("../images/40-5-col-1-MPM-drone-spray.jpg") no-repeat top center/cover;
+        height: 90vw; 
+        width: 90vw;
+        margin-bottom: 20px; 
+        /* Make the square image into circle */
+        border-radius: 50%;
+        max-width: 300px;
+        max-height: 300px; 
+}
+
 
 /* Plough Section */
-#planter {height: 600px;
+#planter {height: 950px;
         width: 100%;
         background: url("../images/John_Deere_Planter_with_Case_IH_Tractor.jpg") no-repeat center/cover;
         position: relative;
@@ -130,10 +141,13 @@ hr {border-top: 1px solid #3a3a3a; margin: 5px 0;}
         text-align: center; 
         justify-content: space-evenly;
         list-style-type: none;
+        
 }
 
+#socials {width: 50%;}
+
 #social-links i {
-        font-size: 50px;
+        font-size: 25px;
         padding: 5%;
         color: #3a3a3a;
 }
@@ -193,4 +207,10 @@ footer {
         }
 
 
+}
+
+
+/* Larger devices (desktops and larger screens, 1200px and up) */
+@media screen and (min-width: 1200px) {
+        #palnter {height: 800px;}
 }
