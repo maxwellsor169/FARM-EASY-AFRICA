@@ -115,15 +115,17 @@ hr {border-top: 1px solid #3a3a3a; margin: 5px 0;}
 
 
 /* Purpose image */
-#square-cover-bg {background: url("../images/40-5-col-1-MPM-drone-spray.jpg") no-repeat top center/cover;
+#circle-cover-bg {background: url("../images/40-5-col-1-MPM-drone-spray.jpg") no-repeat top center/cover;
         height: 90vw; 
         width: 90vw;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
         /* Make the square image into circle */
         border-radius: 50%;
         max-width: 300px;
-        max-height: 300px; 
+        max-height: 300px;  
 }
+
+#purpose-image {display: flex; align-items: center; justify-content: center;}
 
 
 /* Plough Section */
