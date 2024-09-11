@@ -257,6 +257,12 @@ main {
         padding: auto;
 }
 
+/* Tips Styles */
+
+#farm-tips {background-color: lightgreen; padding: 8px; height: 600px;}
+
+#farm-tips ul {margin-left: 20px; padding-top: 10px;}
+
 footer {
         background-color: orange;
 }
