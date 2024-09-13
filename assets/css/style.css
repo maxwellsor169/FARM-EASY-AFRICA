@@ -24,7 +24,7 @@ h3 {
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
-        color: #3a3a;
+        color: #3a3a3a;
 }
 
 /* Header */
@@ -259,7 +259,7 @@ main {
 
 /* Tips Styles */
 
-#farm-tips {background-color: lightgreen; padding: 8px; height: 600px;}
+#farm-tips {background-color: #fafafa; padding: 8px; height: 600px;}
 
 #farm-tips ul {margin-left: 20px; padding-top: 10px;}
 
