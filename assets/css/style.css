@@ -259,14 +259,27 @@ main {
 
 /* Tips Styles */
 
-#farm-tips {background-color: #fafafa; padding: 8px; height: 600px;}
+#farm-tips {background-color: #ffffff; height: 600px; margin-top: 10px; margin-left: 5px;}
 
-#farm-tips ul {margin-left: 20px; padding-top: 10px;}
+.first {padding-top: 8px; justify-content: center; background-color: lightgreen;}
+.first img {width: 100%;}
+
+.second {padding-left: 10px; background-color: #f16c6b;}
+
+#three {background-color: lightblue; padding-left: 8px;}
+ 
 
 footer {
         background-color: orange;
 }
 
+
+
+/* Media query for smaller screens */
+@media screen and (min-width: 576px) {
+
+        
+}
 
 /* Media query for tablet and larger screens */
 @media screen and (min-width: 768px) {
@@ -330,6 +343,32 @@ footer {
                 width: 300px;
                 right: 30px;
         }
+
+        /* Tips section */
+
+        #farm-tips {height: 600px;}
+        .first, #photo {height: 300px; 
+                width: 90%;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-left: 30px;
+                display: flex;
+                flex: 2 0;
+        }
+        #farm-tips h4 {background-color: lightgreen;}
+        .first h4 {padding-bottom: 7px;}
+        .first p {margin-left: 5px; 
+                width: 40%;
+                margin-top: 60px;
+        }
+        #photo {float: right; height: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;}
+
+    .second, #three {width: 100%; padding-top: 10px; height: 100px;}
+    #three {height: 150px;}
+
 
 }
 
