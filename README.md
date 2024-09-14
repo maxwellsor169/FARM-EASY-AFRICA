@@ -5,7 +5,8 @@ The Farm Easy Africa website is a landing page for local africas(Ghanaian) farme
 Users of this website will get to know about our main objective, the machineries we deliver, our contact, general farming tips and how to sign up.
 
 
-![Header](docs./header/readme_images 1.PNG)
+![Header](docs./readme_images/Responsice.PNG)
+
 
 ## Features
 * Navigation
