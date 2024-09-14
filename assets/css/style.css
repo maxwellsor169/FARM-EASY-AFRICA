@@ -223,7 +223,9 @@ main {
         padding: 15px 32px;
 }
 
-.text-center {text-align: center;}
+.text-center {
+        text-align: center;
+}
 
 
 /* Footer */
@@ -237,7 +239,8 @@ main {
 
 }
 
-#socials {display: block;
+#socials {
+        display: block;
         width: 50%;
 
 }
@@ -259,15 +262,33 @@ main {
 
 /* Tips Styles */
 
-#farm-tips {background-color: #ffffff; height: 600px; margin-top: 10px; margin-left: 5px;}
+#farm-tips {
+        background-color: #ffffff;
+        height: 600px;
+        margin-top: 10px;
+        margin-left: 5px;
+}
 
-.first {padding-top: 8px; justify-content: center; background-color: lightgreen;}
-.first img {width: 100%;}
+.first {
+        padding-top: 8px;
+        justify-content: center;
+        background-color: lightgreen;
+}
 
-.second {padding-left: 10px; background-color: #f16c6b;}
+.first img {
+        width: 100%;
+}
 
-#three {background-color: lightblue; padding-left: 8px;}
- 
+.second {
+        padding-left: 10px;
+        background-color: #f16c6b;
+}
+
+#three {
+        background-color: lightblue;
+        padding-left: 8px;
+}
+
 
 footer {
         background-color: orange;
@@ -276,10 +297,7 @@ footer {
 
 
 /* Media query for smaller screens */
-@media screen and (min-width: 576px) {
-
-        
-}
+@media screen and (min-width: 576px) {}
 
 /* Media query for tablet and larger screens */
 @media screen and (min-width: 768px) {
@@ -346,8 +364,13 @@ footer {
 
         /* Tips section */
 
-        #farm-tips {height: 600px;}
-        .first, #photo {height: 300px; 
+        #farm-tips {
+                height: 600px;
+        }
+
+        .first,
+        #photo {
+                height: 300px;
                 width: 90%;
                 flex-direction: row;
                 justify-content: space-between;
@@ -355,19 +378,38 @@ footer {
                 display: flex;
                 flex: 2 0;
         }
-        #farm-tips h4 {background-color: lightgreen;}
-        .first h4 {padding-bottom: 7px;}
-        .first p {margin-left: 5px; 
+
+        #farm-tips h4 {
+                background-color: lightgreen;
+        }
+
+        .first h4 {
+                padding-bottom: 7px;
+        }
+
+        .first p {
+                margin-left: 5px;
                 width: 40%;
                 margin-top: 60px;
         }
-        #photo {float: right; height: auto;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 6px;}
 
-    .second, #three {width: 100%; padding-top: 10px; height: 100px;}
-    #three {height: 150px;}
+        #photo {
+                float: right;
+                height: auto;
+                width: 100%;
+                overflow: hidden;
+        }
+
+        .second,
+        #three {
+                width: 100%;
+                padding-top: 10px;
+                height: 100px;
+        }
+
+        #three {
+                height: 150px;
+        }
 
 
 }
@@ -413,7 +455,7 @@ footer {
                 order: 1;
         }
 
-        #mission > div {
+        #mission>div {
                 align-self: flex-end;
         }
 
