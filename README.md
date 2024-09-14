@@ -12,4 +12,28 @@ Users of this website will get to know about our main objective, the machineries
     * Home, Tips, and Sign Up are the other navigation links which leads the user to the different section of the website.
     * The navigation clearly spells the name of the business and helps users to know the other sections of the website.
 
+### Existing Features
+
+ * The Header
+     * The header shows all three navigation sections of the webpage with clickable links. It also contains the link for the logo. It is found same on all the pages.
+     * The header clearly spells out who the page is ment for.
+     * The helps a user to access every page with ease.
+
+![Nav Bar](docs./readme_images/Nav.PNG)  
+
+  * The landing image
+    * The image includes a photograph with an overlay text describing to users the location of the business.
+    * This photo present to the user what we offer with a catchy animation.
+
+  * Knowing About Farm Easy Africa Section
+    * This part of the home page addresses the business's core objectives.
+    * This section also highlights some of the services the business gives out to its customers. 
+
+![Home](docs./readme_images/home.PNG)    
+
+ * The Footer
+   * The footer contains the links to the different social media sites where users can contact us.
+          
+
+
 
