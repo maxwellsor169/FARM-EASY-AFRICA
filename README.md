@@ -33,6 +33,19 @@ Users of this website will get to know about our main objective, the machineries
 
  * The Footer
    * The footer contains the links to the different social media sites where users can contact us.
+
+![Footer](docs./readme_images/footer.PNG)   
+
+* Tips
+   * This part of the page elaborates on some basic and common general farming practices to help farmers and individuals who use our page for education and business purposes.
+
+![Tips](docs./readme_images/tips.PNG)
+
+* Sign Up Page
+    * The page allows the user to sign up and book a section for our services.
+    * The paeg gives you two options to select from telling us what services you want.
+
+![SignUp](docs./readme_images/signup.PNG)    
           
 
 
