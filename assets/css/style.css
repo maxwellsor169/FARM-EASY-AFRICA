@@ -234,13 +234,12 @@ main {
         text-align: center;
         justify-content: space-evenly;
         list-style-type: none;
-        flex-direction: row;
 
 }
 
-#socials {
+#socials {display: block;
         width: 50%;
-        display: block
+
 }
 
 #social-links i {
@@ -249,15 +248,14 @@ main {
         color: #3a3a3a;
 }
 
-#contact {
+.contact {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: relative;
-        width: 70%;
-        margin: auto;
-        padding: auto;
+        width: 40%;
+        list-style-type: none;
+        right: 20px;
 }
+
+
 
 /* Tips Styles */
 
