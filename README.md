@@ -82,10 +82,12 @@ The live link can be found here - https://maxwellsor169.github.io/FARM-EASY-AFRI
       * The code for the home page, sign up section and 80% of the  CSS rules were taken from the Love Running project.
       * The icons in the footer and the sign up form were taken from [Font Awesome](https://fontawesome.com/).
       * The favicon content was taken from [Favicon](assets/favicon).
+      * The thank.html file was a accomplished with the guidance of my mentor.
 
 
   * Media
-      * Most of the images I used were downloads from Google search images.   
+      * Most of the images I used were downloads from Google search images. 
+      * The convertio image converter was used in converting some of my images.  
 
 
 
