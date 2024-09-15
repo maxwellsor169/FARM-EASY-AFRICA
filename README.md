@@ -46,7 +46,46 @@ Users of this website will get to know about our main objective, the machineries
     * The paeg gives you two options to select from telling us what services you want.
 
 ![SignUp](docs./readme_images/signup.PNG)    
-          
+
+## Testing
+  * This section will address other details of this project which guarantee that this project is been well tested.
+
+### Validator Testing
+
+  * HTML
+     * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+  
+  * CSS
+     * No errors were identiied when passing through the official [Jigsaw] validator(https://jigsaw.w3.org/css-validator/validator)
+
+    * Accessibility results
+
+![Access](docs./readme_images/access.PNG)       
+
+### Unfixed Bugs
+  * I did not identify any bugs when I deployed my project on GitHub.
+
+## Deployment
+  * Procedure
+      * On the GitHub repository I select settings.
+      * I select code and automation section on the left hand side.
+      * I check for source branch as main branch and selected.
+      * Folder set to /(root) and save.
+      * Refreshes main repository page.
+      * Select environments section and github-pages.
+      * View the live deployed page with my github url.
+
+The live link can be found here - https://maxwellsor169.github.io/FARM-EASY-AFRICA/index.html   
+
+## Credit 
+  * Content 
+      * The code for the home page, sign up section and 80% of the  CSS rules were taken from the Love Running project.
+      * The icons in the footer and the sign up form were taken from [Font Awesome](https://fontawesome.com/).
+      * The favicon content was taken from [Favicon](assets/favicon).
+
+
+  * Media
+      * Most of the images I used were downloads from Google search images.   
 
 
 
