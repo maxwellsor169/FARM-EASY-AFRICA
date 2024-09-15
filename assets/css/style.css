@@ -387,10 +387,8 @@ footer {
         }
 
         #photo {
-                float: right;
                 height: auto;
                 width: 100%;
-                overflow: hidden;
         }
 
         .second,
